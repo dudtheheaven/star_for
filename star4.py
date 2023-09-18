@@ -1,7 +1,5 @@
-# star4.py
+# for문이용구현
 
-print(" * * * * * ")
-print(" * * * *   ")
-print(" * * *     ")
-print(" * *       ")
-print(" *         ")
+N = 7
+for i in range(N-1,0,-1):
+    print(" *" * i + " "*(N-i))
